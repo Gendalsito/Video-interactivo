@@ -1,0 +1,54 @@
+body{
+    
+    background-image: url("img/mdera.jpg");
+    background-color: blue;
+}
+.container-principal{
+   margin: 0 auto;
+    /* border: solid 1px black; */
+    width: 50%;
+    height: 5%;
+    color: black;
+    text-align: center;
+    margin-top:5rem ;
+ 
+}
+.container-video{
+    width: 100%;
+}
+.container-oculto{
+    display: none;
+}
+#segundovideo{
+    display: none;
+}
+.videominicanvas{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* margin-top: -180px;
+    margin-left: 100px; */
+    cursor: pointer;
+    display: none;
+
+}
+.videominicanvas2{
+    position: relative;
+    /* margin-top: -180px;
+    margin-left: 450px; */
+    
+    cursor: pointer;
+    display: none;
+
+}
+.o-videos-mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.videos-dentro{
+    margin-top: -12rem;
+    
+}
